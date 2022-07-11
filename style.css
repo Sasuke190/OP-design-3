@@ -24,7 +24,8 @@ body{
 
 .card-content-img img{
     display: block;
-    width: 553px;   
+    width: 553px;
+    height: 70vh;   
     mix-blend-mode: multiply;
     opacity: 0.7;
     
@@ -71,4 +72,32 @@ padding-left: 3rem;
 }
 .Queries{
 padding-left: 3rem;
+}
+.Companies{
+padding-left: 3rem;
+}
+@media (max-width:640px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+
+      .card-content-img,.card-content-insight{
+        width: 100%
+    }
+     .card-content-stat{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        color: hsl(0, 0%, 100%);
+        justify-content: center;
+        align-items: center;
+        padding-right: 3.9rem; 
+        
+    }
+    .Queries{
+        padding-right: 1.5rem;
+    }
+    
 }
